@@ -1,0 +1,13 @@
+<div id="prof">
+    <p>Your Profile</p><br>
+    <label>Surname: </label>
+    <input type="text" placeholder="New Surname" [(ngModel)]="logState.newSurname"><br>
+    
+    <label>First Name: </label>
+    <input type="text" placeholder="New First Name" [(ngModel)]="logState.newFirstName"><br>
+
+    <label>Date Of Birth: </label>
+    <input type="text" placeholder="New Date Of Birth" [(ngModel)]="logState.newDateOfBirth"><br>
+
+    <button (click)="changeState()">Update Profile</button>
+</div>
